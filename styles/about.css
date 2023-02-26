@@ -68,7 +68,8 @@
 .about__contentBlockOrganic,
 .about__contentBlockQuality {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  width: 675px;
 }
 
 .about__contentBlockOrganicText,
@@ -76,6 +77,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  
 }
 
 .about__contentBlockOrganicTextTitle,
@@ -98,10 +100,16 @@
   line-height: 32px;
   letter-spacing: 0.36px;
   color: #525C60;
-  width: 500px;
+  width: 552px;
+}
+.about__contentButtonImgArrow{
+  background-color: #335B6B;
+  width: 35px;
+  height: 35px;
+  border-radius: 30px;
 }
 .about__contentButtonImg {
-  width: 219px;
+  width: 199px;
   height: 82px;
   font-family: 'Roboto';
   font-style: normal;
@@ -118,12 +126,4 @@
   justify-content: space-evenly;
   align-items: center;
 
-}
-.about__contentButtonVektor{
-  position: absolute;
-}
-img{
-  
-  position: relative;
- 
 }

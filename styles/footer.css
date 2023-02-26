@@ -1,0 +1,136 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  flex-direction: column;
+  height: 1262px;
+}
+
+.footer__top {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer__topContact {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  text-align: right;
+  height: 370px;
+  margin-right: 20px;
+}
+
+.footer__topContactBlock {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  height: 330px;
+}
+
+.footer__topContactBlockItem {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__topContactTitle {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 42px;
+  text-align: right;
+  letter-spacing: 0.36px;
+  color: #274C5B;
+}
+
+.footer__topContactBlockItemTitle {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: right;
+  letter-spacing: 0.36px;
+  color: #525C60;
+}
+
+.footer__topContactBlockItemText {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: right;
+  letter-spacing: 0.36px;
+  color: #525C60;
+
+}
+
+.footer__about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  width: 670px;
+  height: 369px;
+  border-left: 1px solid #D5D5D5;
+  border-right: 1px solid #D5D5D5;
+
+}
+
+.footer__aboutText {
+  width: 567px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: center;
+  letter-spacing: 0.36px;
+  color: #525C60;
+
+}
+
+.footer__avoutSocial {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 80px;
+  width: 400px;
+}
+
+.footer__utility {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.footer_utilityBlock {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  height: 240px;
+}
+
+.footer_utilityBlock a {
+  text-decoration: none;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+  letter-spacing: 0.36px;
+  color: #525C60;
+}
+
+.footer__utilityTitle {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 42px;
+  letter-spacing: 0.36px;
+  color: #274C5B
+}
+.footer__bot{
+  margin-top: 100px;
+}

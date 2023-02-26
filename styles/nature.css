@@ -34,7 +34,12 @@
   letter-spacing: 0.36px;
   color: #274C5B;
 }
-
+.nature__contentButtonImgArrow{
+  background-color: #335B6B;
+  width: 35px;
+  height: 35px;
+  border-radius: 30px;
+}
 .nature__contentButtonImg {
   width: 219px;
   height: 82px;
@@ -53,12 +58,4 @@
   justify-content: space-evenly;
   align-items: center;
 
-}
-.nature__contentButtonVektor{
-  position: absolute;
-}
-img{
-  
-  position: relative;
- 
 }
