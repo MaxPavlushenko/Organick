@@ -6,7 +6,7 @@
 }
 .nature__content{
   display: flex;
-  justify-content: space-around;
+  justify-content:space-around;
   flex-direction:column;
   width: 496px;
   height: 500px;

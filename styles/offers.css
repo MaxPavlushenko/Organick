@@ -1,0 +1,75 @@
+.offers {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 117px;
+}
+
+.offers__natural {
+  background-image: url(../images/fresh.svg);
+
+}
+
+.offers__offer {
+  background-image: url(../images/vega.svg);
+
+}
+
+.offers__natural,
+.offers__offer {
+  width: 665px;
+  height: 378px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  
+ 
+
+}
+
+.offers__naturalTitle1 {
+  font-family: 'Yellowtail';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 65px;
+  letter-spacing: 0.36px;
+  color: #FFFFFF;
+  padding-left: 55px;
+}
+
+.offers__naturalTitle2 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  letter-spacing: 0.36px;
+  color: #FFFFFF;
+  width: 300px;
+  padding-left: 55px;
+}
+
+.offers__offerTitle1 {
+  font-family: 'Yellowtail';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 65px;
+  letter-spacing: 0.36px;
+  color: #7EB693;
+  padding-left: 55px;
+}
+
+.offers__offerTitle2 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  letter-spacing: 0.36px;
+  color: #274C5B;
+  width: 260px;
+  padding-left: 55px;
+
+}
