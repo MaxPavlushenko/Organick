@@ -1,0 +1,139 @@
+.organic__Title {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+}
+
+.organic__Title1 {
+  font-family: 'Yellowtail';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 65px;
+  text-align: center;
+  letter-spacing: 0.36px;
+  text-transform: capitalize;
+  color: #7EB693;
+}
+
+.organic__Title2 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 58px;
+  text-align: center;
+  letter-spacing: 0.36px;
+  text-transform: capitalize;
+  color: #274C5B;
+}
+
+.organic__products {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  height: 1219px;
+  margin-top: 50px;
+}
+
+.organic__productsProduct {
+  width: 447px;
+  height: 590px;
+  background-color: #F9F8F8;
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+
+}
+
+.organic__productsProductCategory {
+  background: #274C5B;
+  border-radius: 8px;
+  height: 37px;
+  width: 118px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 27px;
+  letter-spacing: 0.36px;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.organic__productsProductBot {
+  display: flex;
+  justify-content: space-around;
+}
+
+.organic__productsProductBotTitle {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 35px;
+  letter-spacing: 0.36px;
+  color: #274C5B;
+  border-bottom: 1px solid #D4D4D4;
+  width: 386px;
+}
+
+.organic__productsProductBotPrice {
+  display: flex;
+  justify-content: space-between;
+  width: 221px;
+}
+
+.organic__productsProductBotPriceRate {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.organic__productsProductBotPriceRate img {
+  width: 13.92px;
+  height: 12.97px;
+}
+
+.organic__productsProductBotPriceFull:before {
+  content: ' \0024	\0020';
+}
+
+.organic__productsProductBotPriceFull {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 32px;
+  letter-spacing: 0.36px;
+  text-decoration-line: line-through;
+  color: #B8B8B8;
+}
+
+.organic__productsProductBotPriceDisc:before {
+  content: ' \0024	\0020';
+}
+
+.organic__productsProductBotPriceDisc {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: 0.36px;
+  color: #274C5B;
+}
+
+.organic__productsProductBotContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.organic__productsProductImg {
+  margin-left: 30px;
+}

@@ -1,0 +1,129 @@
+.about {
+  height: 1006px;
+  background: #F9F8F8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+}
+
+.about__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 736px;
+}
+
+.about__contentAboutus {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 326px;
+}
+
+.about__contentAboutusTitle1 {
+  font-family: 'Yellowtail';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 65px;
+  letter-spacing: 0.36px;
+  text-transform: capitalize;
+  color: #7EB693;
+}
+
+.about__contentAboutusTitle2 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 58px;
+  letter-spacing: 0.36px;
+  text-transform: capitalize;
+  color: #274C5B;
+  width: 500px;
+}
+
+.about__contentAboutusTitle3 {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: 0.36px;
+  color: #525C60;
+  width: 600px;
+}
+
+.about__contentBlock {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 238px;
+}
+
+.about__contentBlockOrganic,
+.about__contentBlockQuality {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about__contentBlockOrganicText,
+.about__contentBlockQuilityText {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.about__contentBlockOrganicTextTitle,
+.about__contentBlockQualityTextTitle {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 35px;
+  letter-spacing: 0.36px;
+  color: #274C5B;
+}
+
+.about__contentBlockOrganicTextDescr,
+.about__contentBlockQualityTextDescr {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: 0.36px;
+  color: #525C60;
+  width: 500px;
+}
+.about__contentButtonImg {
+  width: 219px;
+  height: 82px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 32px;
+  letter-spacing: 0.36px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  background-color: #274C5B;;
+  border-radius: 15px;
+  border: 0; 
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+.about__contentButtonVektor{
+  position: absolute;
+}
+img{
+  
+  position: relative;
+ 
+}
