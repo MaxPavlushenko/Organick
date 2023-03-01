@@ -1,15 +1,20 @@
 .nature {
-  background-image: url(../images/organic.svg);
-  height: 913px;
+  background: url(../images/organic.svg) no-repeat;
+  background-size: cover;
+  max-width: 1440px;
+  width: 100%;
+  min-height: 913px;
   margin-top: 64px;
- 
+
+   
 }
 .nature__content{
   display: flex;
   justify-content:space-around;
   flex-direction:column;
-  width: 496px;
-  height: 500px;
+  max-width: 496px;
+  width: 100%;
+  min-height: 500px;
   padding-left: 25px;
   padding-top: 230px;
 

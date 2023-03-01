@@ -6,9 +6,11 @@
 }
 
 .subscription__block {
-  background-image: url(../images/newsletter.svg);
-  width: 1380px;
-  height: 320px;
+  background: url(../images/newsletter.svg) no-repeat;
+  background-size: cover;
+  max-width: 1380px;
+  width:100%;
+  min-height: 320px;
   display: flex;
   justify-content: space-between;
   align-items:center;
@@ -24,22 +26,27 @@
   letter-spacing: 0.36px;
   text-transform: capitalize;
   color: #FFFFFF;
-  width: 320px;
+  max-width: 320px;
+  width: 100%;
   margin-left: 60px;
 }
 .subscription__blockForm{
   margin-right: 60px;
-}
 
+}
+  
 .subscription__blockFormContent {
   display: flex;
-  justify-content: space-around;
-  width: 600px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 570px;
+  width: 100%;
 }
 
 .subscription__blockFormContent input {
-  width: 350px;
-  height: 82px;
+  max-width: 350px;
+  width: 100%;
+  min-height: 82px;
   background: #FFFFFF;
   border: 1px solid #CCCCCC;
   border-radius: 16px;

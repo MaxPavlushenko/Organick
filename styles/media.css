@@ -1,0 +1,160 @@
+
+@media( max-width:1380px){
+  .catalog__blockItem {
+    transform: scale(0.95);
+  }
+}
+@media (max-width:1350px) {
+  .about__image {
+    transform: scale(0.8);
+  }
+  .organic__productsProduct{
+    transform: scale(0.95);
+   }
+   .testimonial__bot{
+    transform: scale(0.8);
+    margin-bottom: 120px;
+  }
+}
+@media(max-width:1329px){
+  .offers{
+    justify-content: space-around;
+    height: 900px;
+   }
+}
+@media(max-width: 1280px){
+  .offers{
+   justify-content: space-around;
+   height: 900px;
+  }
+
+.organic__productsProduct{
+ transform: scale(0.95);
+}
+.testimonial__bot{
+  transform: scale(0.8);
+  margin-bottom: 280px;
+}
+.catalog__blockItem {
+  transform: scale(0.95);
+}
+.testimonials{
+  margin-top: 15px;
+}
+
+}
+@media (max-width: 1152px){
+  .footer__topMap{
+    max-width: 100%;
+    min-height: 100%;
+  }
+  .about__content{
+    margin-right: 50px;
+  }
+}
+@media (max-width: 1024px){
+  .header__menuItems{
+    margin-left: 70px;
+  }
+  .header__menuCart{
+    margin-right: 25px;
+  }
+  .header__menuLogo{
+    margin-left: 25px;
+  }
+.about__image{
+  transform: scale(0.6);
+  
+}
+.about{
+  justify-content: space-around;
+}
+.container{
+justify-content: space-around;
+}
+.about__content{
+ margin-right: 150px;
+}
+.about__contentBlockOrganic,
+.about__contentBlockQuality{
+  width: 350px;
+}
+.about__contentButtonImg {
+  width: 150px;
+  height: 62px;
+}
+
+}
+@media(max-width: 800px){
+  /*.header__menuHumburger{
+    display: block;
+  }*/
+.header__menuItems {
+display: none;
+}
+.about__image{
+  display: none;
+  
+}
+.about__contentBlockOrganic,
+.about__contentBlockQuality{
+  width: 550px;
+}
+.about__content{
+  justify-content: center;
+  align-items: center;
+  margin-left: 50px;
+}
+
+.products__topButton{
+  
+margin-right: 30px;
+}
+.eco__img{
+  display: none;
+}
+.eco__content {
+  position: relative;
+  margin-left: 20px;
+  top: 0px;
+  right: 0px;
+}
+.catalog__block{
+  margin-left: 170px;
+}
+.footer__top{
+  flex-direction: column;
+}
+.footer__topContact{
+  align-items:center;
+}
+.footer__utility{
+  align-items: center;
+}
+.footer__about{
+  border-left: none;
+  border-right: none;
+  border-top:1px solid #D5D5D5;
+  border-bottom:1px solid #D5D5D5;
+}
+.footer__topContactBlockItemTitle{
+text-align: center;
+}
+.footer__topContactBlockItemText{
+  text-align: center;
+}
+}
+@media(max-width:640px){
+  .about__content{
+    margin-left: 160px;
+  }
+  .catalog__block{
+    margin-left: 70px;
+  }
+  .footer__about{
+    width: 90%;
+  }
+}
+@media(max-width:425px){
+
+}

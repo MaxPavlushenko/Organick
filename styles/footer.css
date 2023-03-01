@@ -1,14 +1,16 @@
 .footer {
   display: flex;
   justify-content: center;
-  align-items:center;
+  align-items: center;
   flex-direction: column;
-  height: 1262px;
+  max-width: 1440px;
+  width: 100%;
+  min-height: 500px;
 }
 
 .footer__top {
   display: flex;
-  flex-wrap: wrap;
+  /*flex-wrap: wrap;*/
 }
 
 .footer__topContact {
@@ -96,6 +98,7 @@
   justify-content: space-evenly;
   margin-bottom: 80px;
   width: 400px;
+  
 }
 
 .footer__utility {
@@ -131,6 +134,8 @@
   letter-spacing: 0.36px;
   color: #274C5B
 }
-.footer__bot{
+
+.footer__bot {
   margin-top: 100px;
 }
+

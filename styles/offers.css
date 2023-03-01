@@ -1,31 +1,32 @@
 .offers {
   display: flex;
   justify-content: space-around;
-  margin-top: 117px;
+  margin-top: 100px;
   flex-wrap: wrap;
+  
 }
 
 .offers__natural {
-  background-image: url(../images/fresh.svg);
+  background: url(../images/fresh.svg) no-repeat;
+  background-size: 100%;
 
 }
 
 .offers__offer {
-  background-image: url(../images/vega.svg);
+  background: url(../images/vega.svg) no-repeat;
+  background-size: 100%;
 
 }
 
 .offers__natural,
 .offers__offer {
-  width: 665px;
-  height: 378px;
+  max-width: 665px;
+  width: 100%;
+  min-height: 378px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-
-  
- 
-
+  border: 1px solid red;
 }
 
 .offers__naturalTitle1 {
@@ -47,7 +48,8 @@
   line-height: 52px;
   letter-spacing: 0.36px;
   color: #FFFFFF;
-  width: 300px;
+  max-width: 300px;
+  width: 100%;
   padding-left: 55px;
 }
 
@@ -70,7 +72,8 @@
   line-height: 52px;
   letter-spacing: 0.36px;
   color: #274C5B;
-  width: 260px;
+  max-width: 260px;
+  width: 100%;
   padding-left: 55px;
 
 }
