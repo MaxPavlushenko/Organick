@@ -5,9 +5,6 @@
   }
 }
 @media (max-width:1350px) {
-  .about__image {
-    transform: scale(0.8);
-  }
   .organic__productsProduct{
     transform: scale(0.95);
    }
@@ -48,9 +45,6 @@
     max-width: 100%;
     min-height: 100%;
   }
-  .about__content{
-    margin-right: 50px;
-  }
 }
 @media (max-width: 1024px){
   .header__menuItems{
@@ -63,32 +57,19 @@
     margin-left: 25px;
   }
 .about__image{
-  transform: scale(0.6);
+  transform: scale(0.8);
   
-}
-.about{
-  justify-content: space-around;
 }
 .container{
 justify-content: space-around;
-}
-.about__content{
- margin-right: 150px;
-}
-.about__contentBlockOrganic,
-.about__contentBlockQuality{
-  width: 350px;
-}
-.about__contentButtonImg {
-  width: 150px;
-  height: 62px;
+flex-wrap: wrap;
 }
 
 }
 @media(max-width: 800px){
-  /*.header__menuHumburger{
+  .header__menuHumburger{
     display: block;
-  }*/
+  }
 .header__menuItems {
 display: none;
 }
@@ -96,16 +77,6 @@ display: none;
   display: none;
   
 }
-.about__contentBlockOrganic,
-.about__contentBlockQuality{
-  width: 550px;
-}
-.about__content{
-  justify-content: center;
-  align-items: center;
-  margin-left: 50px;
-}
-
 .products__topButton{
   
 margin-right: 30px;
@@ -146,7 +117,7 @@ text-align: center;
 }
 @media(max-width:640px){
   .about__content{
-    margin-left: 160px;
+    padding-left: 30px;
   }
   .catalog__block{
     margin-left: 70px;
@@ -155,6 +126,60 @@ text-align: center;
     width: 90%;
   }
 }
-@media(max-width:425px){
-
+@media(max-width: 573px){
+  .subscription__block{
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .subscription__blockForm{
+    margin-left: 50px;
+  }
+}
+@media(max-width:426px){
+  .products__top {
+    flex-wrap: wrap;
+  }
+  .header__menuCart{
+    transform: scale(0.8);
+  }
+  .catalog__block{
+    margin-right: 70px;
+  }
+  .footer__top {
+    padding-left: 25px;
+  }
+  .subscription__block{
+    transform: scale(0.9);
+  }
+  .catalog__blockItem{
+    transform: scale(0.8);
+  }
+  
+.offers__natural,
+.offers__offer{
+  transform: scale(0.9);
+}
+}
+@media(max-width:417px){
+  .organic__productsProductImg{
+    transform: scale(0.75);
+    margin-right:250px;
+  }
+  .nature__content{
+    transform: scale(0.8);
+   }
+}
+@media(max-width: 375px){
+ 
+}
+@media(max-width:321px){
+  .organic__productsProductImg{
+    transform: scale(0.6);
+}
+}
+@media(max-width:376px){
+  .header__menuLogo{
+    display: none;
+  }
 }

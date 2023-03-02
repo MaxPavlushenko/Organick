@@ -8,13 +8,13 @@
 
 .offers__natural {
   background: url(../images/fresh.svg) no-repeat;
-  background-size: 100%;
+  background-size:cover;
 
 }
 
 .offers__offer {
   background: url(../images/vega.svg) no-repeat;
-  background-size: 100%;
+  background-size:cover;
 
 }
 
@@ -26,7 +26,6 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  border: 1px solid red;
 }
 
 .offers__naturalTitle1 {

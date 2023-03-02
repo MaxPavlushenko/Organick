@@ -10,7 +10,6 @@
 
 .footer__top {
   display: flex;
-  /*flex-wrap: wrap;*/
 }
 
 .footer__topContact {
@@ -73,15 +72,17 @@
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
-  width: 670px;
-  height: 369px;
+  max-width: 670px;
+  width: 100%;
+  min-height: 369px;
   border-left: 1px solid #D5D5D5;
   border-right: 1px solid #D5D5D5;
 
 }
 
 .footer__aboutText {
-  width: 567px;
+  max-width: 567px;
+  width: 100%;
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
@@ -93,12 +94,12 @@
 
 }
 
-.footer__avoutSocial {
+.footer__aboutSocial {
   display: flex;
   justify-content: space-evenly;
   margin-bottom: 80px;
-  width: 400px;
-  
+  max-width: 400px;
+  width: 100%;
 }
 
 .footer__utility {

@@ -13,7 +13,8 @@
 
 }
 
-.header__menuItems a {
+.header__menuItems a,
+.header__menuHumburgerItems a {
   text-decoration: none;
   font-family: 'Roboto';
   font-style: normal;
@@ -50,4 +51,69 @@ color: #274C5B;
 }
 .header__menuHumburger{
   display: none;
+  position: relative;
+  right: 10px;
+  top: 10px;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
 }
+.header__menuHumburger span,.header__menuHumburger span::before, .header__menuHumburger span::after{
+  width: 100%;
+  position: absolute;
+  height: 6px;
+  background: #274C5B;
+  display: block;
+  transition: .3s;
+  border-radius: 5px;
+}
+.header__menuHumburger span::before{
+  content: "";
+  top: -20px;
+  transition: top 300ms 300ms, transform 300ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+.header__menuHumburger span{
+  top: 20px;
+}
+.header__menuHumburger span::after{
+  content: "";
+  bottom: -20px;
+  transition: bottom 300ms 300ms, transform 300ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+.header__menuHumburger span.active::before{
+  content: "";
+  top: 0px;
+  transform: rotate(45deg);
+  transition: top 300ms, transform 300ms 300ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.header__menuHumburger span.active::after{
+  content: "";
+  bottom: 0;
+  transform: rotate(-45deg);
+  transition: bottom 300ms, transform 300ms 300ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.header__menuHumburger span.active{
+  background: rgba(255, 255, 255, 0); 
+}
+.header__menuHumburgerItems{
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  height: auto;
+  background: #F9F8F8;
+  color: #ccc;
+  position: fixed;
+  padding: 10px;
+  /*left: -320px;*/
+  transition: left 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.header__menuHumburgerItems.animate{
+  right: 0;
+  top: 100px;
+  display: none;
+}
+
+
+
+
+

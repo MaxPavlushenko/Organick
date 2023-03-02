@@ -41,13 +41,14 @@
 }
 .nature__contentButtonImgArrow{
   background-color: #335B6B;
-  width: 35px;
+width: 35px;  
   height: 35px;
   border-radius: 30px;
 }
 .nature__contentButtonImg {
-  width: 219px;
-  height: 82px;
+  max-width: 219px;
+  width: 100%;
+  min-height: 82px;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;

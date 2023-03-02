@@ -20,7 +20,7 @@
 
 .catalog__blockItem {
   background: url(../images/fruit.svg) no-repeat;
-  background-size: cover;
+  background-size:cover;
   max-width: 460px;
   width: 100%;
   min-height: 580px;

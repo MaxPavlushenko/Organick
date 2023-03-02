@@ -3,7 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport"
+        content="width=device-width, user-scalability=no initial-scale=1.0 maximum-scale=1.0 minimum-scale=1.0">
     <meta name="Maxim Pavluchenko" content="exam">
     <title>Organick</title>
     <link rel="stylesheet" href="styles/main.css">
@@ -37,7 +38,8 @@
                     <span>Cart 0</span>
                 </div>
                 <div class="header__menuHumburger">
-                    <div class="header__menuHumburgerItems">
+                    <span></span>
+                   <div class="header__menuHumburgerItems">
                         <a href="#"> Home</a>
                         <a href="#">About Us</a>
                         <a href="#">Shop</a>
@@ -510,7 +512,7 @@
                     </div>
                     <div class="footer__aboutText">We are a popular and farming company aspiring to be a leader in the
                         Organic food industry.</div>
-                    <div class="footer__avoutSocial">
+                    <div class="footer__aboutSocial">
                         <a href="#"><img src="images/econFb.svg" alt="fb"></a>
                         <a href="#"><img src="images/econTwit.svg" alt="twit"></a>
                         <a href="#"><img src="images/econInst.svg" alt="inst"></a>
@@ -527,20 +529,24 @@
                         <a href="#">Licenses</a>
                     </div>
                 </div>
-            </div>           
+            </div>
         </footer>
         <section class="map">
             <div class="footer__bot">
                 <div class="footer__topMap">
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d88678.91849214453!2d-93.3315183202165!3d44.97067559539084!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x52b333909377bbbd%3A0x939fc9842f7aee07!2z0JzQuNC90L3QtdCw0L_QvtC70LjRgSwg0JzQuNC90L3QtdGB0L7RgtCwLCDQodCo0JA!5e1!3m2!1sru!2sby!4v1677441504655!5m2!1sru!2sby"
-                        max-width="1440" width="100%" min-height="662" style="border:0;" allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        max-width="1440" width="100%" min-height="662" style="border:0;" allowfullscreen=""
+                        loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
         </section>
 
     </div>
+  <script>document.querySelector('.header__menuHumburger').addEventListener('click', function(){
+    document.querySelector('.header__menuHumburger span').classList.toggle('active');
+  })</script>
+  <script>document.querySelector('.header__menuHumburgerItems').classList.toggle("animate");</script>
 </body>
 
 </html>
