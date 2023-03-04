@@ -39,7 +39,7 @@
                 </div>
                 <div class="header__menuHumburger">
                     <span></span>
-                   <div class="header__menuHumburgerItems">
+                    <div class="header__menuHumburgerItems">
                         <a href="#"> Home</a>
                         <a href="#">About Us</a>
                         <a href="#">Shop</a>
@@ -543,10 +543,15 @@
         </section>
 
     </div>
-  <script>document.querySelector('.header__menuHumburger').addEventListener('click', function(){
-    document.querySelector('.header__menuHumburger span').classList.toggle('active');
-  })</script>
-  <script>document.querySelector('.header__menuHumburgerItems').classList.toggle("animate");</script>
+    <script>document.querySelector('.header__menuHumburger').addEventListener('click', function () {
+            document.querySelector('.header__menuHumburger span').classList.toggle('active');
+            document.querySelector('.header__menuHumburgerItems').classList.toggle('animate');
+           
+        })
+    </script>    
+    <!--<script>
+        document.querySelector('.header__menuHumburgerItems').classList.toggle('animate');
+</script>-->
 </body>
 
 </html>
